@@ -1,0 +1,129 @@
+# This file created by conda-build 25.1.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Tue Feb 11 14:09:12 2025
+# ------------------------------------------------
+
+package:
+  name: micromamba
+  version: 2.0.5
+source:
+  - folder: mamba
+    sha256: f3c4d39921b2036aa77e1093cb21006bf8787f720a11a2a1ef9a80568d660bf3
+    url: https://github.com/mamba-org/mamba/archive/refs/tags/micromamba-2.0.5.tar.gz
+  - folder: vcpkg
+    sha256: 7da785e42b7487fb0e7465188f12c6ce0dfa760ab334d0f4f708bd1fc54081b1
+    url: https://github.com/microsoft/vcpkg/archive/refs/tags/2024.07.12.tar.gz
+build:
+  ignore_run_exports_from:
+    - fmt
+    - libsolv
+    - python
+    - spdlog
+    - zlib
+  number: '1'
+  string: '1'
+requirements:
+  build:
+    - 7zip 24.08 hc790b64_0
+    - bzip2 1.0.8 h2466b09_7
+    - ca-certificates 2025.1.31 h56e8100_0
+    - cmake 3.31.5 hff78f93_0
+    - curl 8.11.1 h88aaa65_0
+    - git 2.47.1 h57928b3_0
+    - krb5 1.21.3 hdf4eb48_0
+    - libcurl 8.11.1 h88aaa65_0
+    - libexpat 2.6.4 he0c23c2_0
+    - libffi 3.4.6 h537db12_0
+    - liblzma 5.6.4 h2466b09_0
+    - libsqlite 3.48.0 h67fdade_1
+    - libssh2 1.11.1 he619c9f_0
+    - libuv 1.50.0 h2466b09_0
+    - libzlib 1.3.1 h2466b09_2
+    - ninja 1.12.1 hc790b64_0
+    - openssl 3.4.0 ha4e3fda_1
+    - python 3.12.8 h3f84c4b_1_cpython
+    - tk 8.6.13 h5226925_1
+    - tzdata 2025a h78e105d_0
+    - ucrt 10.0.22621.0 h57928b3_1
+    - vc 14.3 h5fd82a7_24
+    - vc14_runtime 14.42.34433 h6356254_24
+    - vcpkg-tool 2023.03.14 h91bfe4b_0
+    - vs2015_runtime 14.42.34433 hfef2bbc_24
+    - vs2019_win-64 19.29.30139 h7dcff83_24
+    - vs_win-64 2019.11 h7dcff83_24
+    - vswhere 3.1.7 h57928b3_0
+    - zlib 1.3.1 h2466b09_2
+    - zstd 1.5.6 h0ea2cb4_0
+  host:
+    - cli11 2.4.2 he0c23c2_0
+    - cpp-expected 1.1.0 h91493d7_0
+    - fmt 11.0.2 h7f575de_0
+    - libsolv 0.7.30 hbb528cf_0
+    - libsolv-static 0.7.30 hbb528cf_0
+    - libzlib 1.3.1 h2466b09_2
+    - nlohmann_json 3.11.3 he0c23c2_1
+    - reproc-cpp-static 14.2.5.post0 he0c23c2_0
+    - reproc-static 14.2.5.post0 h2466b09_0
+    - simdjson 3.12.0 hc790b64_0
+    - simdjson-static 3.12.0 h91493d7_0
+    - spdlog 1.15.1 hf4138ee_0
+    - ucrt 10.0.22621.0 h57928b3_1
+    - vc 14.3 h5fd82a7_24
+    - vc14_runtime 14.42.34433 h6356254_24
+    - vs2015_runtime 14.42.34433 hfef2bbc_24
+    - winreg 6.3.1 h57928b3_0
+    - yaml-cpp-static 0.8.0 h63175ca_0
+  run:
+    - ucrt >=10.0.20348.0
+    - vc >=14.2,<15
+    - vc14_runtime >=14.29.30139
+test:
+  commands:
+    - if not exist %LIBRARY_BIN%\micromamba.exe (exit 1)
+    - micromamba.exe --help
+    - mkdir %TEMP%\mamba
+    - set "MAMBA_ROOT_PREFIX=%TEMP%\mamba"
+    - micromamba.exe create -n test --override-channels -c conda-forge --yes python=3.9
+    - '%MAMBA_ROOT_PREFIX%\envs\test\python.exe --version'
+    - '%MAMBA_ROOT_PREFIX%\envs\test\python.exe -c "import os"'
+about:
+  dev_url: https://github.com/mamba-org/mamba
+  home: https://github.com/mamba-org/mamba
+  license: BSD-3-Clause AND MIT AND OpenSSL
+  license_family: BSD
+  license_file:
+    - CLI11_LICENSE.txt
+    - CURL_LICENSE.txt
+    - C_ARES_LICENSE.txt
+    - FMT_LICENSE.txt
+    - KRB5_LICENSE.txt
+    - LIBARCHIVE_LICENSE.txt
+    - LIBEV_LICENSE.txt
+    - LIBLZ4_LICENSE.txt
+    - LIBNGHTTP2_LICENSE.txt
+    - LIBOPENSSL_3_LICENSE.txt
+    - LIBOPENSSL_LICENSE.txt
+    - LIBSOLV_LICENSE.txt
+    - NLOHMANN_JSON_LICENSE.txt
+    - REPROC_LICENSE.txt
+    - SPDLOG_LICENSE.txt
+    - TL_EXPECTED_LICENSE.txt
+    - ZLIB_LICENSE.txt
+    - ZSTD_LICENSE.txt
+    - mamba/LICENSE
+  summary: Micromamba is a tiny version of mamba, the fast conda package installer.
+extra:
+  copy_test_source_files: true
+  final: true
+  flow_run_id: azure_20250211.4.1
+  recipe-maintainers:
+    - AntoinePrv
+    - JohanMabille
+    - SylvainCorlay
+    - adriendelsalle
+    - jjerphan
+    - mariusvniekerk
+    - pavelzw
+    - wolfv
+  remote_url: https://github.com/conda-forge/micromamba-feedstock
+  sha: 53bbf970a400e673e3ffbf4462956580fd2a40c6

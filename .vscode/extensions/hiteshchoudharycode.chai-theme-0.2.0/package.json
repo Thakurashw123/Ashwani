@@ -1,0 +1,54 @@
+{
+	"name": "chai-theme",
+	"displayName": "chai theme",
+	"description": "A set of amazing theme to write and teach code",
+	"version": "0.2.0",
+	"publisher": "hiteshchoudharycode",
+	"icon": "images/chai.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/hiteshchoudhary/vscode-theme"
+	},
+	"engines": {
+		"vscode": "^1.60.0"
+	},
+	"keywords": [
+		"theme",
+		"dark theme",
+		"best dark theme",
+		"coder theme",
+		"chai aur code",
+		"hitesh choudhary"
+	],
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Dark Chai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/dark-chai.json"
+			},
+			{
+				"label": "Light Chai",
+				"uiTheme": "vs-dark",
+				"path": "./themes/light-chai.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "a3712931-416f-4480-85b3-6de388e0827a",
+		"publisherId": "0958173d-d8b4-4780-b073-2cee05152024",
+		"publisherDisplayName": "hitesh choudhary",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1735125200743,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery",
+		"size": 924744
+	}
+}

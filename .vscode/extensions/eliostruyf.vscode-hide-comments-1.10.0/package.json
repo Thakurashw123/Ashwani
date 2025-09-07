@@ -1,0 +1,202 @@
+{
+	"name": "vscode-hide-comments",
+	"displayName": "Hide Comments",
+	"description": "VSCode extension for people that do not like to see comments in the code. It allows you to hide/show comments in the code.",
+	"icon": "assets/hide-comments.png",
+	"version": "1.10.0",
+	"preview": false,
+	"publisher": "eliostruyf",
+	"galleryBanner": {
+		"color": "#011627",
+		"theme": "dark"
+	},
+	"license": "MIT",
+	"author": "Elio Struyf <elio@struyfconsulting.be> (https://www.eliostruyf.com)",
+	"badges": [
+		{
+			"description": "version",
+			"url": "https://img.shields.io/github/package-json/v/estruyf/vscode-hide-comments?color=green&label=vscode-hide-comments&style=flat-square",
+			"href": "https://github.com/estruyf/vscode-hide-comments"
+		},
+		{
+			"description": "Buy me a coffee",
+			"url": "https://img.shields.io/badge/Buy%20me%20a%20coffee-€%203-blue?logo=buy-me-a-coffee&style=flat-square",
+			"href": "https://www.buymeacoffee.com/zMeFRy9"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/estruyf/vscode-hide-comments"
+	},
+	"engines": {
+		"vscode": "^1.53.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"keywords": [
+		"Comments"
+	],
+	"activationEvents": [
+		"onStartupFinished"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"configuration": {
+			"title": "Hide Comments: Configuration",
+			"properties": {
+				"hideComments.foldOnHide": {
+					"type": "boolean",
+					"description": "Specify if you want to fold the code when comments are hidden.",
+					"default": true
+				},
+				"hideComments.defaultEnabled": {
+					"type": "boolean",
+					"description": "Specify if the hide comments extension is by default enabled on start of the project.",
+					"default": false
+				},
+				"hideComments.cleanStart": {
+					"type": "boolean",
+					"description": "Specify if you want to reset to the default behaviour when you start a new Visual Studio Code instance.",
+					"default": true
+				},
+				"hideComments.color": {
+					"type": "string",
+					"description": "Specify the color of the comments.",
+					"default": "#00000000"
+				},
+				"hideComments.backup": {
+					"type": "object",
+					"description": "Specify the backup settings."
+				},
+				"hideComments.combineToggle": {
+					"type": "boolean",
+					"description": "Specifies if you want to combine the regex and comments show/hide in one toggle.",
+					"default": true
+				},
+				"hideComments.regex": {
+					"type": [
+						"array",
+						"null"
+					],
+					"description": "Specify the regular expression to use to hide additional lines.",
+					"default": null,
+					"examples": [
+						[
+							{
+								"regex": "console\\.log\\(([^)]+)\\).*",
+								"flags": "igm"
+							}
+						]
+					],
+					"items": {
+						"type": "object",
+						"properties": {
+							"regex": {
+								"type": "string",
+								"description": "The regular expression to use to hide additional lines."
+							},
+							"flags": {
+								"type": "string",
+								"description": "The flags to use for the regular expression."
+							}
+						}
+					}
+				}
+			}
+		},
+		"commands": [
+			{
+				"command": "hidecomments.toggle",
+				"title": "Hide Comments: Toggle the show/hide of all comments"
+			},
+			{
+				"command": "hidecomments.hide",
+				"title": "Hide Comments: Hide all comments",
+				"icon": "$(eye-closed)"
+			},
+			{
+				"command": "hidecomments.show",
+				"title": "Hide Comments: Show all comments",
+				"icon": "$(eye)"
+			},
+			{
+				"command": "hidecomments.regex.hide",
+				"title": "Hide Comments: Hide lines by regex",
+				"icon": {
+					"dark": "assets/icons/dark/star-hide.svg",
+					"light": "assets/icons/light/star-hide.svg"
+				}
+			},
+			{
+				"command": "hidecomments.regex.show",
+				"title": "Hide Comments: Show lines by regex",
+				"icon": {
+					"dark": "assets/icons/dark/star.svg",
+					"light": "assets/icons/light/star.svg"
+				}
+			}
+		],
+		"menus": {
+			"editor/title": [
+				{
+					"command": "hidecomments.show",
+					"group": "navigation@-133",
+					"when": "hideComments.commentsEnabled == false"
+				},
+				{
+					"command": "hidecomments.hide",
+					"group": "navigation@-133",
+					"when": "hideComments.commentsEnabled == true"
+				},
+				{
+					"command": "hidecomments.regex.show",
+					"group": "navigation@-132",
+					"when": "hideComments.regexEnabled == true && hideComments.regexUsed == false"
+				},
+				{
+					"command": "hidecomments.regex.hide",
+					"group": "navigation@-132",
+					"when": "hideComments.regexEnabled == true && hideComments.regexUsed == true"
+				}
+			],
+			"commandPalette": [
+				{
+					"command": "hidecomments.regex.hide",
+					"when": "hideComments.regexEnabled == true"
+				},
+				{
+					"command": "hidecomments.regex.show",
+					"when": "hideComments.regexEnabled == true"
+				}
+			]
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"vscode:publish": "vsce publish",
+		"compile": "tsc -p ./",
+		"lint": "eslint src --ext ts",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.0",
+		"@types/node": "^14.0.27",
+		"@types/vscode": "^1.53.0",
+		"@typescript-eslint/eslint-plugin": "^4.1.1",
+		"@typescript-eslint/parser": "^4.1.1",
+		"eslint": "^7.9.0",
+		"glob": "^7.1.6",
+		"mocha": "^10.2.0",
+		"typescript": "^4.0.2",
+		"vscode-test": "^1.4.0"
+	},
+	"__metadata": {
+		"installedTimestamp": 1745245833263,
+		"targetPlatform": "undefined",
+		"size": 183760
+	}
+}

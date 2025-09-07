@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main() {
+    int x;
+    x = 3;
+    int y;
+    y = 4;
+    int z;
+    z = x + y;
+    
+    printf("%d",z);
+
+
+
+
+
+
+
+
+
+    return 0;
+}

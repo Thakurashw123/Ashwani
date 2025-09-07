@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="31275b50-a914-48ea-a03b-55ac82c97fea" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled4/untitled4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled5/untitled5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IdeaProjects/untitled6/untitled6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject1/.idea/PythonProject1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject1/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject1/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/.idea/PythonProject2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject2/raj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject6/.idea/PythonProject6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject6/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PycharmProjects/PythonProject6/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/Aswini.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Aswini/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/RASIE NIMBER.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/RASIE NIMBER/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/Thakur Ashwani Singh.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/Thakur Ashwani Singh/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/main java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/main java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/pattern printing with java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pattern printing with java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/person.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/person/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/printong.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/printong/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/project college.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/project college/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/pyramid.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/pyramid/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/two parameters/two parameters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled1/untitled1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled2/untitled2.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled3/untitled3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java/untitled4/untitled4.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/IdeaProjects/untitled3" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2oyNNtfPq6ulxReZUaMD6pF51Dl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.scratch.executor": "Run",
+    "Python.write a program input 2 number in python.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ashwa/ashwani sin/your to do list/GCD/powe"
+  },
+  "keyToStringList": {
+    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
+      "Python"
+    ]
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-14705d77f0bb-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.25659.43" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="31275b50-a914-48ea-a03b-55ac82c97fea" name="Changes" comment="" />
+      <created>1731837818801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731837818801</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/OneDrive/Desktop/My 1st python project.py</url>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
